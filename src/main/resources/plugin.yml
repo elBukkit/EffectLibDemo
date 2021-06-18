@@ -5,3 +5,14 @@ api-version: 1.14
 author: NathanWolf
 description: A plugin to demo EffectLib integration
 commands:
+  el:
+    description: Test an EffectLib effect
+    usage: |
+      /el            Show available effects
+      /el line       Show the Line effect
+      /el lineto     Show the Line effect to your target location
+      /el ...        Show other effects
+    permission: EffectLibDemo.commands.el
+permissions:
+  "EffectLibDemo.commands.el":
+    default: op
