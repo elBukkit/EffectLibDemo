@@ -1,0 +1,7 @@
+name: EffectLibDemo
+main: com.elmakers.mine.bukkit.plugins.demo.EffectLibDemo
+version: 1.0
+api-version: 1.14
+author: NathanWolf
+description: A plugin to demo EffectLib integration
+commands:
